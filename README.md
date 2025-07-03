@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎓 Demo AI cho Khóa Luận Tốt Nghiệp
 
 ## 🎯 Mục tiêu
@@ -69,3 +70,34 @@ Chuẩn hóa dữ liệu hành vi học sinh bao gồm:
 ## 📚 Ứng dụng thực tế
 - Có thể áp dụng trong các hệ thống LMS để gợi ý học tập cá nhân hóa
 - Góp phần phát triển mô hình học tập thích ứng trong giáo dục STEM
+=======
+# Student Clustering Analysis
+
+This script performs clustering analysis on student behavior data to identify patterns and visualize results.
+
+## Description
+- **Data Preparation**: Generates simulated student data with features like video views, quiz attempts, PDF views, and quiz scores, ensuring logical correlations (e.g., higher engagement leads to more activity and better scores).
+- **Clustering**: Applies KMeans clustering (3 clusters) to group students based on behavior.
+- **Visualization**:
+  - Bar plot showing feature counts for each student:  
+    ![Feature Bar Plot](./outputs/feature_bar.png)
+  - 2D PCA scatter plot of clusters:  
+    ![2D Cluster Scatter](./outputs/cluster_scatter.png)
+  - 3D PCA scatter plot of clusters:  
+    ![3D Cluster Scatter](./outputs/cluster_scatter_3d.png)
+  - matrix cluster 0:  
+    ![3D Cluster Scatter](./outputs/corr_matrix_cluster_0.png)
+  - matrix cluster 1:  
+    ![3D Cluster Scatter](./outputs/corr_matrix_cluster_1.png)
+  - matrix cluster 2:  
+    ![3D Cluster Scatter](./outputs/corr_matrix_cluster_2.png)
+  - Score average each cluster:  
+    ![3D Cluster Scatter](./outputs/score_average.png)
+- **Output**: Saves clustered data to `student_clusters.csv` and visualizations to the `outputs` directory.
+
+## Files Generated
+- `student_clusters.csv`: Clustered student data.
+- `feature_bar.png`: Bar plot of student features.
+- `cluster_scatter.png`: 2D PCA visualization of clusters.
+- `cluster_scatter_3d.png`: 3D PCA visualization of clusters.
+>>>>>>> b9cfa9b (feat: demo kmean)
