@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎓 Demo AI cho Khóa Luận Tốt Nghiệp
 
 ## 🎯 Mục tiêu
@@ -100,4 +99,3 @@ This script performs clustering analysis on student behavior data to identify pa
 - `feature_bar.png`: Bar plot of student features.
 - `cluster_scatter.png`: 2D PCA visualization of clusters.
 - `cluster_scatter_3d.png`: 3D PCA visualization of clusters.
->>>>>>> b9cfa9b (feat: demo kmean)
